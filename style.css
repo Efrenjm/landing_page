@@ -43,7 +43,7 @@ a {
     color: #f9faf8;
 
     font-weight:bolder;
-    font-size: 48px;
+    font-size: 42px;
 }
 .subtext {
     color: #E5E7EB;
@@ -90,11 +90,40 @@ a {
 .img-box{
     border-radius: 12px;
     border: 4px solid cornflowerblue;
-    width: 105px;
-    height: 110px;
+    width: 140px;
+    height: 140px;
     display: flex;
     justify-content: center;
 }
+.img-box img{
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .subimage {
     text-align: center;
+}
+.third-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px;
+    gap: 25px;
+    
+}
+.testimonial{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.quoute{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    align-self:flex-end;
 }
